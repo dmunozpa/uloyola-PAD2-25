@@ -34,7 +34,7 @@ def calculo_n_par_forma2():
     '''
     Cálculo de N pares del 1 al 100 sumando de 2 en 2.
     '''
-    numero = 1
+    numero = 2
     resultado = 0
     n_iteraciones = 0
 
@@ -53,12 +53,12 @@ def calculo_n_par_forma3():
     '''
     Cálculo de N pares del 1 al 100 usando el iterador for in range
     '''
-    numero = 1
+    numero = 2
     resultado = 0
     n_iteraciones = 0
     numero_salida = 101 
 
-    for numero in range(1, numero_salida, 2):
+    for numero in range(2, numero_salida, 2):
         #print(" Valores de numero",numero)
         n_iteraciones = n_iteraciones + 1
         resultado += numero

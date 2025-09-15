@@ -20,6 +20,7 @@ def calculate_imc(peso_kg:float, altura_m:float)->float:
     imc = 0.0
     try:
         # TODO: Usa la variable imc, con la resultado de la fórmula = peso (kg) / (altura_m (m) * altura (m))
+        imc = peso_kg / (altura_m * altura_m)
     except ZeroDivisionError:
         print("La áltura no puede ser cero. Introduce número válido")
     
@@ -33,7 +34,8 @@ def main():
     try:
         # TODO: Usa la variable peso_kg. como float por teclado, usando un texto descriptivo
         # TODO: Usa la variable altura_m. como float por teclado, usando un texto descriptivo
-    
+        peso_kg = float(input("Dame tu peso en Kg, con dos decimales"))
+        altura_m = float(input("Dame tu altura en Metros, con dos decimales"))
         bmi = calculate_imc(peso_kg, altura_m)
 
         print(f"Tu IMC es: {bmi:.2f}")
