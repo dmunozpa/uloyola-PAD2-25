@@ -7,9 +7,9 @@ import random
 
 
 def adivina_el_nunero():
-    '''
+    """
     Función principal para adivinar el número.
-    '''
+    """
     # Variables
     min_number = 1
     max_number = 100

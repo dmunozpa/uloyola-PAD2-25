@@ -11,9 +11,9 @@
 # OPCION 1 #
 ############
 def calculo_n_par_forma1():
-    '''
+    """
     Calculo de N pares del 1 al 100 usando módulo.
-    '''
+    """
     numero = 1
     resultado = 0
     n_iteraciones = 0
@@ -31,9 +31,9 @@ def calculo_n_par_forma1():
 # OPCION 2 #
 ############
 def calculo_n_par_forma2():
-    '''
+    """
     Cálculo de N pares del 1 al 100 sumando de 2 en 2.
-    '''
+    """
     numero = 2
     resultado = 0
     n_iteraciones = 0
@@ -50,9 +50,9 @@ def calculo_n_par_forma2():
 # OPCION 3 #
 ############
 def calculo_n_par_forma3():
-    '''
+    """
     Cálculo de N pares del 1 al 100 usando el iterador for in range
-    '''
+    """
     numero = 2
     resultado = 0
     n_iteraciones = 0

@@ -9,14 +9,14 @@
 
 
 def calculate_imc(peso_kg:float, altura_m:float)->float:
-    '''
+    """
     Función que calcula el Índice de Masa Corporal
     Args:
         peso_kg (float): Peso en Kg
         altura_m (int): Altura en metros
     Returns:
         float: Devuelve el resultado en forma de float
-    '''
+    """
     imc = 0.0
     try:
         # Formula del IMC = peso (kg) / (altura_m (m) * altura (m))
@@ -28,12 +28,12 @@ def calculate_imc(peso_kg:float, altura_m:float)->float:
 
 
 def check_imc_adultos(imc:float)-> str:
-    '''
+    """
     Args:
         imc: Indice de masa corporal.
     Returns:
         str: Texto con la evaluación.
-    '''
+    """
     texto = ""
     
     if imc < 18.5:

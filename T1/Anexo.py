@@ -1,9 +1,9 @@
 
 #Variables 
-'''
+"""
 No cuenta con un comando para declarar variables.
 Normalmente el valor se le asigna.
-'''
+"""
 x = 5
 y = "Hola"
 print(x, y)
@@ -25,8 +25,8 @@ print(x)
 Así podemos comentar
 """
 
-'''También podemos usar comillas simples triples
-para comentar varias líneas'''
+"""También podemos usar comillas simples triples
+para comentar varias líneas"""
 
 
 #Si queremos conocer el tipo de una variable, podemos usar el comando: print(type(variable)).
@@ -226,11 +226,11 @@ def suma_con_excepcion(a, b):
 print(suma_con_excepcion(8, 9))  # Resultado correcto
 print(suma_con_excepcion(8, "a"))  # Error: ambos argumentos deben ser números.
 
-'''
+"""
 Además de TypeError se puede usar:
     except Exception as e:  # Captura cualquier tipo de error
         return f"Error: {e}"
-'''
+"""
 def suma_con_excepcion_2(a, b):
     try:
         resultado = a + b

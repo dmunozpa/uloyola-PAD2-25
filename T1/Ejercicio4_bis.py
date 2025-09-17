@@ -6,14 +6,14 @@ import random
 from typing import Tuple
 
 def lanza_dos_dados()-> Tuple[int, int]:
-    '''
+    """
     Lanza dos dados de seis caras y devuelve sus resultados.
 
     Returns:
         Tuple [int, int]: Una tupla que contiene los valores obtenidos 
         al lanzar el primer y el segundo dado. 
         Cada valor está en el rango de 1 a 6 (inclusive).
-    '''
+    """
     # TODO: Usa la variable dado1, generada por un numero aleatorio entre 1 y 6.
     # TODO: Usa la variable dado2, generada por un numero aleatorio entre 1 y 6.
 
