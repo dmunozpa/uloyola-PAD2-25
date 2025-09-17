@@ -14,7 +14,7 @@ def depositar(cuenta:dict, monto:float):
 
     if monto > 0:
         cuenta["saldo"] += monto
-        print(f"Depósito de {monto}€ realizado. Nuevo saldo: ${cuenta['saldo']}")
+        print(f"Depósito de {monto}€ realizado. Nuevo saldo: {cuenta['saldo']} €")
     else:
         print("El monto a depositar debe ser positivo.")
 
@@ -23,7 +23,7 @@ def retirar(cuenta:dict, monto:float):
     
     if 0 < monto <= cuenta["saldo"]:
         cuenta["saldo"] -= monto
-        print(f"Retiro de {monto}€ realizado. Nuevo saldo: ${cuenta['saldo']}")
+        print(f"Retiro de {monto}€ realizado. Nuevo saldo: {cuenta['saldo']} €")
     else:
         print("Saldo insuficiente o monto inválido.")
 
