@@ -6,7 +6,7 @@
 # Definimos la cuenta como un diccionario
 cuenta = {
     "titular": "Gladis Gonzales",
-    "saldo": 10000
+    "saldo": 10000.00
 }
 
 # Funcion de depositar
