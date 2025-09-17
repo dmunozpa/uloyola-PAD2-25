@@ -11,6 +11,12 @@ cuenta = {
 
 # Funcion de depositar
 def depositar(cuenta:dict, monto:float):
+    """
+    Método depositar.
+    Args:
+        cuenta (dict): Cuenta a depositar.
+        monto (float): Cantidad a depositar.
+    """
 
     # TODO: Comprueba que el monto es positivo.
         # TODO: Suma el monto, a la variable saldo de la cuenta.
@@ -20,6 +26,12 @@ def depositar(cuenta:dict, monto:float):
 
 # Funcion de retirar
 def retirar(cuenta:dict, monto:float):
+        """
+    Método de retirar de la cuenta, una candidad dada.
+    Args:
+        cuenta (dict): Cuenta a retirar.
+        monto (float): Cantidad a retirar.
+    """
     
     # TODO: Comprueba que el monto es positivo, y la variable saldo de la cuenta es mayor que el monto.
         # TODO: Resta el monto, a la variable saldo de la cuenta.

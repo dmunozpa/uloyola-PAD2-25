@@ -11,6 +11,12 @@ cuenta = {
 
 # Funcion de depositar
 def depositar(cuenta:dict, monto:float):
+    """
+    Método depositar.
+    Args:
+        cuenta (dict): Cuenta a depositar.
+        monto (float): Cantidad a depositar.
+    """
 
     if monto > 0:
         cuenta["saldo"] += monto
@@ -20,6 +26,12 @@ def depositar(cuenta:dict, monto:float):
 
 # Funcion de retirar
 def retirar(cuenta:dict, monto:float):
+    """
+    Método de retirar de la cuenta, una candidad dada.
+    Args:
+        cuenta (dict): Cuenta a retirar.
+        monto (float): Cantidad a retirar.
+    """
     
     if 0 < monto <= cuenta["saldo"]:
         cuenta["saldo"] -= monto
