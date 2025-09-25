@@ -37,9 +37,9 @@ def valida_letra_dni(dni:str)->bool:
     resultado = False
     letras = "TRWAGMYFPDXBNJZSQVHLCKE"
     
-    numero = int(dni[:-1]) # Cogemos la parte del numérica del DNI.
     letra_dni = dni[-1] # Cogemos la parte de la letra del DNI.
-
+    numero = int(dni[:-1]) # Cogemos la parte del numérica del DNI.
+    
     letra_correcta = letras[numero % 23]
 
     if letra_dni == letra_correcta:

@@ -15,9 +15,13 @@ def lanza_dos_dados()-> Tuple[int, int]:
         Cada valor está en el rango de 1 a 6 (inclusive).
     """
     # TODO: Usa la variable dado1, generada por un numero aleatorio entre 1 y 6.
+    dado1 = random.randint(1,6)
     # TODO: Usa la variable dado2, generada por un numero aleatorio entre 1 y 6.
-
+    dado2 = random.randint(1,6)
+    
     # TODO: Devuelve el resultado en modo tupla.
+    return dado1,dado2
+
 
 def main():
  

@@ -20,6 +20,8 @@ def valida_9_digitos(dni:str)->bool:
     
     # TODO: Condición para evaluar que la longitud de la cadena es igual que 9.
     #    resultado = True
+    if len(dni) == 9:
+        resultado = True
     
     return resultado
 
@@ -37,9 +39,9 @@ def valida_letra_dni(dni:str)->bool:
     resultado = False
     letras = "TRWAGMYFPDXBNJZSQVHLCKE"
     
-    # TODO: Usamos la variable numero, para coger la parte del numérica del DNI.
     # TODO: Usamos la variable letra_dni, para coger la parte de la letra del DNI.
-
+    # TODO: Usamos la variable numero, para coger la parte del numérica del DNI.
+    
     # TODO: usamos la variable letra_correcta, con la posición de la letra en la variable letras, siendo la posición % 23.
     
     if letra_dni == letra_correcta:
