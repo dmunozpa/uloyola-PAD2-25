@@ -8,8 +8,8 @@ class Persona:
         self.__codigoSecreto = codigo
         
     def __str__(self)->str:
-        return f"- Nombre: {self.nombre} \U0001F600 \n- Id: {self.id} \n- Edad:{self.edad} \N{kissing face}"
-       
+        return f"Nombre: {self.nombre} \U0001F600 \N{grinning face} \n\tApellido: {self.id} \nEdad: {self.edad}"
+          
 
 objetoPersonaManuel = Persona("Manuel","12345678Z",22,"123")
 print(objetoPersonaManuel)
