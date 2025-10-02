@@ -74,4 +74,4 @@ if __name__ == "__main__":
         if accion not in ["1", "2", "3"]:
             print("Opción no válida.")
         if accion == "3":
-            print("Gracias por usar el el Banco ULoyola.")
+            print("Gracias por usar el Banco ULoyola.")

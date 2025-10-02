@@ -50,7 +50,7 @@ if __name__ == "__main__":
     print("-" * 60)
     print("- Bienvenido a Banco Loyola - ")
     print("-" * 60)
-    print(f"Saldo actual de: {cuenta['titular']}: {obtener_saldo(cuenta)} €")
+    print(f"Saldo actual de {cuenta['titular']}: {obtener_saldo(cuenta)} €")
     print("-" * 60)
     
     accion = input("¿Desea realizar un:\n 1. Depósito\n 2. Retiro\n 3. Salir\n")
@@ -74,4 +74,4 @@ if __name__ == "__main__":
         if accion not in ["1", "2", "3"]:
             print("Opción no válida.")
         if accion == "3":
-            print("Gracias por usar el el Banco ULoyola.")
+            print("Gracias por usar el Banco ULoyola.")
