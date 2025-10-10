@@ -113,7 +113,7 @@ print("Python es " + x)
 
 #Listas: Los elementos de la lista están ordenados, se pueden modificar y permiten valores duplicados.
 #Ejemplo: 
-thislist = ["manzana", "planato", "cereza"]
+thislist = ["manzana", "platano", "cereza"]
 print(thislist)
 
 #Modificar lista: 
@@ -131,7 +131,7 @@ print(thislist)
 
 #Tuple: Es una colección ordenada (el orden no cambiará) e inmutable. Permite miembros duplicados.
 #Ejemplo: 
-mytuple = ("manzana", "planato", "cereza")
+mytuple = ("manzana", "platano", "cereza")
 print(mytuple)
 
 #Condicionales y bucles
@@ -189,7 +189,7 @@ for x in range(1, 6, 2): #Si queremos que incremente de a 2 en 2, se indica el t
 
 
 #Podemos usar for para recorrer listas
-thislist = ["manzana", "planato", "cereza"]
+thislist = ["manzana", "platano", "cereza"]
 for x in thislist:
   print(x)
 
