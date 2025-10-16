@@ -22,7 +22,7 @@ def calculate_imc(peso_kg:float, altura_m:float)->float:
         # Formula del IMC = peso (kg) / (altura_m (m) * altura (m))
         imc = peso_kg / (altura_m * altura_m)
     except ZeroDivisionError:
-        print("La áltura no puede ser cero. Introduce número válido")
+        print("La altura no puede ser cero. Introduce número válido")
     
     return imc
     

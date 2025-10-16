@@ -38,11 +38,11 @@ def check_imc_adultos(imc:float)-> str:
     
     if imc < 18.5:
         texto = "Indice bajo de peso"
-    elif imc > 18.5 and imc < 24.9:
+    elif imc >= 18.5 and imc < 24.9:
         texto = "Estas sano, con un índice correcto"
-    elif imc > 24.9 and imc < 29.9:
+    elif imc >= 24.9 and imc < 29.9:
         texto = "Tienes un poco de sobrepeso"
-    elif imc > 30:
+    elif imc >= 30:
         texto = "Indice alto, estas con sobrepeso"
     
     return texto
