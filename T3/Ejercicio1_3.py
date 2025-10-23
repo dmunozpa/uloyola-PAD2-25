@@ -4,7 +4,15 @@ ruta_absoluta = "C:/Users/dmuno/Desktop/EXAMEN/data/don_quijote_cap1.txt"
 
 def busca_palabra_mejorado(palabra:str, contenido: str)->int:
     
-    lista_palabras = contenido.replace(","," ").replace(".", " ").split()
+    # Reemplazo de "." y ","
+    contenido = contenido.replace(","," ").replace(".", " ")
+    
+    # Reemplazo a minuscula de contenido y palabra.
+    contenido = contenido.lower()
+    palabra = palabra.lower()
+    
+    lista_palabras = contenido.split()
+    
     total = 0
     if palabra in lista_palabras:
         total = lista_palabras.count(palabra)
