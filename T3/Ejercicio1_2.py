@@ -15,7 +15,7 @@ def busca_palabra(palabra:str, contenido: str)->int:
 with open(ruta_absoluta,"r",encoding="utf-8") as f:
     contenido = f.read()
     
-    palabra_a_buscar = str(input("¿Qué palabra busco?"))
+    palabra_a_buscar = str(input("¿Qué palabra busco? \n"))
     total = busca_palabra(palabra_a_buscar,contenido)
     
     print(f"En fichero '{f.name}' tiene {total} de {palabra_a_buscar}")
