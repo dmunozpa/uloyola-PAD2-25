@@ -7,7 +7,7 @@ profesores = [
     ]
 
 datos = []
-fichero_path = "profesores1.json"
+fichero_path = "T3/data/profesores1.json"
 
 # Construimos el diccionario
 for nombre, estudios, email in profesores:

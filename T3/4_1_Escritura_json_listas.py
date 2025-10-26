@@ -6,7 +6,7 @@ profesores = [
     ("David Becerra", "Fisico", "dbecerra@uloyola.es")
 ]
 
-fichero_path = "profesores.json"
+fichero_path = "T3/data/profesores.json"
 
 with open(fichero_path, "w",encoding="utf-8") as f:
     json.dump(profesores, f)
