@@ -1,0 +1,2 @@
+2025-10-24 16:42:56 LOGIN usuario1 
+2025-10-24 16:42:56 LOGIN usuario2 
