@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Antonio Duran",
+        "estudios": "Ingeniero Informatico",
+        "email": "amduran@uloyola.es"
+    },
+    {
+        "nombre": "Manuel Ceballos",
+        "estudios": "Matematico",
+        "email": "mceballos@uloyola.es"
+    },
+    {
+        "nombre": "David Becerra",
+        "estudios": "Fisico",
+        "email": "dbecerra@uloyola.es"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "nombre": "Maria",
+    "edad": "29",
+    "profesion": "Ingeniera",
+    "habilidades": [
+        "Python",
+        "Machine Learning",
+        "SQL",
+        "Java"
+    ],
+    "configuracion": {
+        "tema": "claro",
+        "notificaciones": true
+    },
+    "modificado": true,
+    "original": "T3/data/fichero.json"
+}
