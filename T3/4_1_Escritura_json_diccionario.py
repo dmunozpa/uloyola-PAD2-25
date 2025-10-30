@@ -14,4 +14,4 @@ for nombre, estudios, email in profesores:
     datos.append({"nombre": nombre, "estudios": estudios, "email": email})
 
 with open(fichero_path, "w") as f:
-    json.dump(datos,f)
+    json.dump(datos,f,indent=4)

@@ -12,6 +12,7 @@ with open(fichero_path, "r",encoding='utf-8') as f:
     
     # Acceso a listas
     lista_habilidades = datos_alumna["habilidades"]
+
     for habilidad in lista_habilidades:
         print(habilidad)
 
