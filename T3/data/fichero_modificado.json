@@ -1,6 +1,6 @@
 {
     "nombre": "Maria",
-    "edad": "29",
+    "edad": 29,
     "profesion": "Ingeniera",
     "habilidades": [
         "Python",
@@ -15,3 +15,5 @@
     "modificado": true,
     "original": "T3/data/fichero.json"
 }
+
+

@@ -9,4 +9,4 @@ profesores = [
 fichero_path = "T3/data/profesores.json"
 
 with open(fichero_path, "w",encoding="utf-8") as f:
-    json.dump(profesores, f, indent=4)
+    json.dump(profesores, f,indent=4)
