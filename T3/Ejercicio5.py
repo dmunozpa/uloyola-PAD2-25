@@ -21,5 +21,3 @@ with open(ruta_fichero_empleado_filtrado,"w",encoding="utf-8",newline="\n") as f
     
     escritor_csv = csv.writer(f)   
     escritor_csv.writerows(lista_perfiles)
-
-    

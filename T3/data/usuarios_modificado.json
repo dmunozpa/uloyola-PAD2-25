@@ -3,9 +3,9 @@
         "id": 1,
         "nombre": "Isabel",
         "edad": 42,
-        "pais": "Espa\u00f1a",
+        "pais": "España",
         "activo": true,
-        "categoria": "adulto"
+        "categoria": "Adulto"
     },
     {
         "id": 2,
@@ -13,41 +13,41 @@
         "edad": 47,
         "pais": "Chile",
         "activo": true,
-        "categoria": "adulto"
+        "categoria": "Adulto"
     },
     {
         "id": 3,
         "nombre": "Javier",
         "edad": 24,
-        "pais": "M\u00e9xico",
+        "pais": "México",
         "activo": false
     },
     {
         "id": 4,
         "nombre": "Carmen",
         "edad": 50,
-        "pais": "Per\u00fa",
+        "pais": "Perú",
         "activo": false
     },
     {
         "id": 5,
         "nombre": "Diego",
         "edad": 38,
-        "pais": "Espa\u00f1a",
+        "pais": "España",
         "activo": true,
-        "categoria": "adulto"
+        "categoria": "Adulto"
     },
     {
         "id": 6,
         "nombre": "Patricia",
         "edad": 46,
-        "pais": "Per\u00fa",
+        "pais": "Perú",
         "activo": true,
-        "categoria": "adulto"
+        "categoria": "Adulto"
     },
     {
         "id": 7,
-        "nombre": "Sof\u00eda",
+        "nombre": "Sofía",
         "edad": 37,
         "pais": "Argentina",
         "activo": false
@@ -65,58 +65,58 @@
         "edad": 58,
         "pais": "Argentina",
         "activo": true,
-        "categoria": "adulto"
+        "categoria": "Adulto"
     },
     {
         "id": 10,
         "nombre": "Marta",
         "edad": 46,
-        "pais": "M\u00e9xico",
+        "pais": "México",
         "activo": false
     },
     {
         "id": 11,
         "nombre": "Sara",
         "edad": 52,
-        "pais": "M\u00e9xico",
+        "pais": "México",
         "activo": true,
-        "categoria": "adulto"
+        "categoria": "Adulto"
     },
     {
         "id": 12,
         "nombre": "Ana",
         "edad": 27,
-        "pais": "M\u00e9xico",
+        "pais": "México",
         "activo": false
     },
     {
         "id": 13,
         "nombre": "Marta",
         "edad": 41,
-        "pais": "M\u00e9xico",
+        "pais": "México",
         "activo": true,
-        "categoria": "adulto"
+        "categoria": "Adulto"
     },
     {
         "id": 14,
-        "nombre": "Sof\u00eda",
+        "nombre": "Sofía",
         "edad": 35,
-        "pais": "M\u00e9xico",
+        "pais": "México",
         "activo": false
     },
     {
         "id": 15,
-        "nombre": "Andr\u00e9s",
+        "nombre": "Andrés",
         "edad": 38,
-        "pais": "Per\u00fa",
+        "pais": "Perú",
         "activo": true,
-        "categoria": "adulto"
+        "categoria": "Adulto"
     },
     {
         "id": 16,
         "nombre": "Carmen",
         "edad": 30,
-        "pais": "Espa\u00f1a",
+        "pais": "España",
         "activo": false
     },
     {

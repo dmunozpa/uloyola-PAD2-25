@@ -10,5 +10,3 @@ with open(ruta_fichero_empleado,"r",encoding="utf-8") as f:
     for empleado in reader:
         if anio_a_buscar in empleado[3]:
             print(empleado[2],empleado[0],empleado[1])
-        
-    
