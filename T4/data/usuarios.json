@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "nombre": "Isabel",
+    "edad": 41,
+    "pais": "España",
+    "activo": true
+  },
+  {
+    "id": 2,
+    "nombre": "Elena",
+    "edad": 46,
+    "pais": "Chile",
+    "activo": true
+  },
+  {
+    "id": 3,
+    "nombre": "Javier",
+    "edad": 24,
+    "pais": "México",
+    "activo": false
+  },
+  {
+    "id": 4,
+    "nombre": "Carmen",
+    "edad": 50,
+    "pais": "Perú",
+    "activo": false
+  },
+  {
+    "id": 5,
+    "nombre": "Diego",
+    "edad": 37,
+    "pais": "España",
+    "activo": true
+  },
+  {
+    "id": 6,
+    "nombre": "Patricia",
+    "edad": 45,
+    "pais": "Perú",
+    "activo": true
+  },
+  {
+    "id": 7,
+    "nombre": "Sofía",
+    "edad": 37,
+    "pais": "Argentina",
+    "activo": false
+  },
+  {
+    "id": 8,
+    "nombre": "Marta",
+    "edad": 40,
+    "pais": "Colombia",
+    "activo": false
+  },
+  {
+    "id": 9,
+    "nombre": "Isabel",
+    "edad": 57,
+    "pais": "Argentina",
+    "activo": true
+  },
+  {
+    "id": 10,
+    "nombre": "Marta",
+    "edad": 46,
+    "pais": "México",
+    "activo": false
+  },
+  {
+    "id": 11,
+    "nombre": "Sara",
+    "edad": 51,
+    "pais": "México",
+    "activo": true
+  },
+  {
+    "id": 12,
+    "nombre": "Ana",
+    "edad": 27,
+    "pais": "México",
+    "activo": false
+  },
+  {
+    "id": 13,
+    "nombre": "Marta",
+    "edad": 40,
+    "pais": "México",
+    "activo": true
+  },
+  {
+    "id": 14,
+    "nombre": "Sofía",
+    "edad": 35,
+    "pais": "México",
+    "activo": false
+  },
+  {
+    "id": 15,
+    "nombre": "Andrés",
+    "edad": 37,
+    "pais": "Perú",
+    "activo": true
+  },
+  {
+    "id": 16,
+    "nombre": "Carmen",
+    "edad": 30,
+    "pais": "España",
+    "activo": false
+  },
+  {
+    "id": 17,
+    "nombre": "Marta",
+    "edad": 18,
+    "pais": "Argentina",
+    "activo": false
+  },
+  {
+    "id": 18,
+    "nombre": "Sara",
+    "edad": 60,
+    "pais": "Colombia",
+    "activo": false
+  },
+  {
+    "id": 19,
+    "nombre": "Diego",
+    "edad": 40,
+    "pais": "Chile",
+    "activo": false
+  },
+  {
+    "id": 20,
+    "nombre": "Ana",
+    "edad": 53,
+    "pais": "Argentina",
+    "activo": false
+  }
+]
