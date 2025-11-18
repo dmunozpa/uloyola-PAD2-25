@@ -1,0 +1,7 @@
+CiudadOrigen,CiudadDestino,Fecha,Medio,Distancia_km,Precio
+Madrid,Barcelona,2024-01-05,Tren,620,55
+Madrid,Valencia,2024-01-07,Bus,360,28
+Barcelona,Madrid,2024-01-08,Avión,620,95
+Sevilla,Madrid,2024-01-10,Avión,530,80
+Valencia,Barcelona,2024-01-12,Tren,350,45
+Madrid,Sevilla,2024-01-14,Tren,530,52
