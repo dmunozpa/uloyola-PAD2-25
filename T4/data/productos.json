@@ -1,0 +1,122 @@
+[
+    {
+      "id": "P001",
+      "nombre": "Arroz blanco 1kg",
+      "cantidad": 34,
+      "precio_compra": 0.95
+    },
+    {
+      "id": "P002",
+      "nombre": "Pasta espagueti 500g",
+      "cantidad": 18,
+      "precio_compra": 0.75
+    },
+    {
+      "id": "P003",
+      "nombre": "Aceite de oliva 1L",
+      "cantidad": 12,
+      "precio_compra": 3.40
+    },
+    {
+      "id": "P004",
+      "nombre": "Leche entera 1L",
+      "cantidad": 60,
+      "precio_compra": 0.65
+    },
+    {
+      "id": "P005",
+      "nombre": "Huevos docena",
+      "cantidad": 22,
+      "precio_compra": 1.10
+    },
+    {
+      "id": "P006",
+      "nombre": "Azúcar 1kg",
+      "cantidad": 15,
+      "precio_compra": 0.80
+    },
+    {
+      "id": "P007",
+      "nombre": "Sal 1kg",
+      "cantidad": 25,
+      "precio_compra": 0.35
+    },
+    {
+      "id": "P008",
+      "nombre": "Pan molde 500g",
+      "cantidad": 5,
+      "precio_compra": 0.95
+    },
+    {
+      "id": "P009",
+      "nombre": "Mantequilla 250g",
+      "cantidad": 7,
+      "precio_compra": 1.50
+    },
+    {
+      "id": "P010",
+      "nombre": "Queso rallado 200g",
+      "cantidad": 4,
+      "precio_compra": 1.25
+    },
+    {
+      "id": "P011",
+      "nombre": "Yogur natural 4 unidades",
+      "cantidad": 13,
+      "precio_compra": 1.00
+    },
+    {
+      "id": "P012",
+      "nombre": "Cereal de maíz 500g",
+      "cantidad": 10,
+      "precio_compra": 1.80
+    },
+    {
+      "id": "P013",
+      "nombre": "Galletas surtidas 300g",
+      "cantidad": 19,
+      "precio_compra": 1.20
+    },
+    {
+      "id": "P014",
+      "nombre": "Tomate frito 400g",
+      "cantidad": 8,
+      "precio_compra": 0.90
+    },
+    {
+      "id": "P015",
+      "nombre": "Atún en lata (pack 3)",
+      "cantidad": 27,
+      "precio_compra": 2.40
+    },
+    {
+      "id": "P016",
+      "nombre": "Harina de trigo 1kg",
+      "cantidad": 16,
+      "precio_compra": 0.70
+    },
+    {
+      "id": "P017",
+      "nombre": "Café molido 250g",
+      "cantidad": 6,
+      "precio_compra": 2.10
+    },
+    {
+      "id": "P018",
+      "nombre": "Chocolate negro 100g",
+      "cantidad": 3,
+      "precio_compra": 0.85
+    },
+    {
+      "id": "P019",
+      "nombre": "Zumo de naranja 1L",
+      "cantidad": 14,
+      "precio_compra": 1.05
+    },
+    {
+      "id": "P020",
+      "nombre": "Mermelada de fresa 350g",
+      "cantidad": 9,
+      "precio_compra": 1.30
+    }
+]
