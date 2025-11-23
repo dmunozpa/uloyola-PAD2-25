@@ -15,7 +15,7 @@ print(df)
 #orient="records" -> exporta las filas como una lista de objetos JSON
 #indent=4 -> Para que agregue la sangría.
 #orient e indent, ayudan a que sea más legible el archivo SJON creado.
-df.to_json("T4\data\precio_venta.json", orient="records", indent=4, index=False)
+df.to_json("T4/data/precio_venta.json", orient="records", indent=4, index=False)
 
 #Muestro en pantalla solo aquellos productos que tengan una cantidad menor a 10.
 #Paso 1: df.loc[ ] -> para seleccionar por etiqueta de las columnas.
@@ -30,7 +30,7 @@ df_nuevo = df.loc[df["cantidad"] < 10, ["id", "nombre", "cantidad"]]
 print(df_nuevo.info())
 
 #Guardo este dataframe como un nuevo archivo json
-df_nuevo.to_json("T4\data\pendiente_compra.json", orient="records", indent=4, index=False)
+df_nuevo.to_json("T4/data/pendiente_compra.json", indent=4, index=False)
 
 
 
